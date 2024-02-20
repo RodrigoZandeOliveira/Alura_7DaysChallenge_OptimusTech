@@ -34,6 +34,11 @@
   margin-right: auto;
 }
 
+.nav__content-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* NAVIGATION BTN */
 .btn {
   border: none;
@@ -49,9 +54,19 @@
   background: none;
 }
 
+.nav__navigation-login-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .nav__navigation-signup-btn {
   color: var(--text-color-quaternary);
   background-color: var(--accent-color-primary);
+}
+
+.nav__navigation-signup-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .nav__navigation-container-mobile {
@@ -152,11 +167,6 @@
 
   .nav__content-container {
     display: none;
-  }
-
-  .nav__content-link:hover {
-    cursor: pointer;
-    text-decoration: underline;
   }
 
   .humburguer__check:checked ~ .nav__content-container {
