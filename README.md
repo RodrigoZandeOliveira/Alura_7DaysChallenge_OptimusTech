@@ -16,5 +16,5 @@
 
 - After finishing the project I decided to make the page responsive by using media queries. This was not part of the challenge but I wanted to learn and practice to develop a responsive webpage.
 - I practiced to use "variables" to make the css code easy to edit/customize;
-- I used CSS Grid & Flexbox to position the elements throughout the page and to adpat the layout using media queries;
+- I used CSS Grid & Flexbox to position the elements throughout the page and to adapt the layout using media queries;
 - [About Alura](https://www.alura.com.br);
