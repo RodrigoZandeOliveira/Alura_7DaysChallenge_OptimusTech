@@ -1,0 +1,16 @@
+.footer__container {
+  width: 100%;
+  background-color: var(--page-background-tertiary);
+  text-align: center;
+}
+
+.footer__details {
+  padding-bottom: 9.6rem;
+}
+
+/*--- MAX-WIDTH: 475PX -------------------------------------------------------*/
+@media screen and (max-width: 475px) {
+  .footer__details {
+    padding-top: 3.2rem;
+  }
+}

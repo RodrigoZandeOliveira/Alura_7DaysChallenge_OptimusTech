@@ -1,0 +1,35 @@
+:root {
+  --page-background-primary: #ffffff;
+  --page-background-secondary: rgba(195, 25, 25, 0.03);
+  --page-background-tertiary: #f9fafb;
+
+  --accent-color-primary: #8e2424;
+  --accent-color-secondary: rgba(195, 25, 25, 0.03);
+
+  --card-border: #eaecf0;
+  --input-border: 1px solid #d0d5dd;
+
+  --text-color-primary: #667085;
+  --text-color-secondary: #101828;
+  --text-color-tertiary: #3a404e;
+  --text-color-quaternary: #ffffff;
+
+  --text-font-family-primary: 'inter', sans-serif;
+
+  --text-font-size-small: 1.4rem;
+  --text-font-size-regular: 1.6rem;
+  --text-font-size-big: 1.8rem;
+  --text-font-size-very-big: 2rem;
+  --text-font-size-extra-big: 3.6rem;
+  --text-font-size-large: 4.8rem;
+  --text-font-size-very-large: 6rem;
+
+  --text-font-weight-light: 300;
+
+  --text-font-weight-medium: 500;
+  --text-font-weight-semibold: 700;
+
+  --btn-border-radius: 0.8rem;
+
+  --max-width: 1216px;
+}

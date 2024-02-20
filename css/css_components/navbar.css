@@ -1,0 +1,189 @@
+.nav__container {
+  height: 8rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  font-weight: var(--text-font-weight-medium);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* COMPANY LOGO  */
+.nav__logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav__company-logo {
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-right: 0.8rem;
+}
+
+.nav__company-name {
+  font-size: var(--text-font-size-big);
+}
+
+/* CONTENT LINKS */
+.nav__content-container {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  margin-left: 12rem;
+  margin-right: auto;
+}
+
+/* NAVIGATION BTN */
+.btn {
+  border: none;
+  outline: none;
+  border-radius: var(--btn-border-radius);
+  font-family: var(--text-font-family-primary);
+  font-weight: var(--text-font-weight-medium);
+  font-size: var(--text-font-size-regular);
+  padding: 1rem 1.8rem;
+}
+
+.nav__navigation-login-btn {
+  background: none;
+}
+
+.nav__navigation-signup-btn {
+  color: var(--text-color-quaternary);
+  background-color: var(--accent-color-primary);
+}
+
+.nav__navigation-container-mobile {
+  display: none;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/* MEDIA QUERIES ///////////////////////////////////////////////////////////// */
+
+/*--- MAX-WIDTH: 1280PX ------------------------------------------------------*/
+@media screen and (max-width: 1280px) {
+  .nav__container {
+    padding: 0 2.4rem;
+  }
+
+  .nav__content-container {
+    margin: 0 auto;
+  }
+}
+
+/*--- MAX-WIDTH: 980PX -------------------------------------------------------*/
+@media screen and (max-width: 980px) {
+  .nav__navigation-container {
+    display: none;
+  }
+
+  .nav__content-container {
+    display: none;
+  }
+
+  .nav__navigation-menu-btn-mobile {
+    display: block;
+  }
+
+  .nav__navigation-container-mobile {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+  }
+
+  .btn-mobile {
+    display: none;
+  }
+
+  .nav__navigation-login-btn-mobile:hover {
+    fill: var(--accent-color-primary);
+  }
+
+  .nav__navigation-menu-btn-mobile {
+    cursor: pointer;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  /* ---HAMBURGUER MENU ---------------------------------------------------------- */
+  .nav__navigation-menu-btn-mobile {
+    display: none;
+
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../../img/icon_menu.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000;
+  }
+
+  .humburguer__check {
+    display: none;
+  }
+
+  .nav__content-container {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 0;
+
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: var(--text-font-size-very-big);
+    padding: 10% 0;
+
+    background-color: var(--accent-color-primary);
+    color: var(--text-color-quaternary);
+  }
+
+  .nav__content-item {
+    margin-bottom: 5rem;
+  }
+
+  .nav__content-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .nav__content-container {
+    display: none;
+  }
+
+  .nav__content-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .humburguer__check:checked ~ .nav__content-container {
+    display: block;
+  }
+}
+
+/*--- MAX-WIDTH: 560PX -------------------------------------------------------*/
+@media screen and (max-width: 560px) {
+  .nav__navigation-container-mobile {
+    gap: 1.2rem;
+  }
+
+  .nav__content-container {
+    font-size: var(--text-font-size-big);
+    padding: 10% 0;
+  }
+}
+
+/*--- MAX-WIDTH: 475PX -------------------------------------------------------*/
+@media screen and (max-width: 475px) {
+  .nav__navigation-login-btn-mobile {
+    display: none;
+  }
+
+  .nav__navigation-menu-btn-mobile {
+    width: 5rem;
+    height: 5rem;
+  }
+}

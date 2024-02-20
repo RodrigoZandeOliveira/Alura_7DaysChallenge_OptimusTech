@@ -1,0 +1,126 @@
+.jobs__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-bottom: 9.6rem;
+}
+
+.jobs__content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+
+.jobs__badge {
+  font-size: var(--text-font-size-small);
+  font-weight: var(--text-font-weight-medium);
+  background-color: var(--accent-color-secondary);
+  color: var(--accent-color-primary);
+  padding: 0.6rem 1.4rem;
+  border-radius: 100rem;
+  margin-bottom: 1.6rem;
+}
+
+.jobs__heading {
+  font-size: var(--text-font-size-extra-big);
+  font-weight: var(--text-font-weight-semibold);
+  color: var(--text-color-secondary);
+  margin-bottom: 2rem;
+}
+
+.jobs__description {
+  font-size: var(--text-font-size-very-big);
+}
+
+.jobs__open {
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  padding: 0 224px;
+}
+
+.jobs__open-container {
+  width: 100%;
+  height: fit-content;
+}
+
+.jobs__open-container-title {
+  font-size: var(--text-font-size-very-big);
+  font-weight: var(--text-font-weight-medium);
+  margin: 6.4rem 0 3.2rem 0;
+}
+
+.job__card {
+  border: 1px solid var(--card-border);
+  border-radius: 1.6rem;
+  padding: 2.4rem 2.8rem 2.8rem 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.job__card-title {
+  font-size: var(--text-font-size-big);
+  font-weight: var(--text-font-weight-medium);
+  color: var(--text-color-secondary);
+  margin-bottom: 3.2rem;
+}
+
+.job__card-details {
+  font-size: var(--text-font-size-regular);
+  font-weight: var(--text-font-weight-medium);
+  display: flex;
+  gap: 2.4rem;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/* MEDIA QUERIES ///////////////////////////////////////////////////////////// */
+
+/*--- MAX-WIDTH: 1280PX ------------------------------------------------------*/
+@media screen and (max-width: 1280px) {
+  .jobs_img {
+    width: 100%;
+  }
+}
+
+/*--- MAX-WIDTH: 980PX -------------------------------------------------------*/
+@media screen and (max-width: 980px) {
+  .jobs__heading,
+  .jobs__description {
+    margin: 0 5% 2rem 0;
+    text-align: center;
+  }
+
+  .jobs__open {
+    padding: 0 10%;
+    text-align: center;
+  }
+
+  .job__card-details {
+    justify-content: center;
+  }
+}
+
+/*--- MAX-WIDTH: 560PX -------------------------------------------------------*/
+@media screen and (max-width: 560px) {
+}
+
+/*--- MAX-WIDTH: 475PX -------------------------------------------------------*/
+@media screen and (max-width: 475px) {
+  .jobs__heading {
+    font-size: 2.8rem;
+    margin: 0 5% 2rem 5%;
+  }
+
+  .job__card {
+    min-width: 25rem;
+    padding: 2rem 1rem 2.4rem 1rem;
+  }
+
+  .job__card-title {
+    margin-bottom: 1.6rem;
+  }
+
+  .job__card-details {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

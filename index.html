@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OptimusTech</title>
+    <link rel="icon" href="img/OptimusTech_logo.svg" />
+
+    <!-- CSS | STYLES -->
+    <link rel="stylesheet" href="css/css_global/styles.css" />
+
+    <!-- CSS | PAGE HOME -->
+    <link rel="stylesheet" href="css/css_page/page_home.css" />
+  </head>
+
+  <body>
+    <!--- NAV ----------------------------------------------------->
+    <nav class="nav__container">
+      <div class="nav__logo-container">
+        <img
+          src="img/OptimusTech_logo.svg"
+          alt="Logo da empresa Omptimus Tech"
+          class="nav__company-logo"
+        />
+        <p class="nav__company-name">OptimusTech</p>
+      </div>
+
+      <ul class="nav__content-container">
+        <li class="nav__content-item"><a class="nav__content-link">Home</a></li>
+        <li class="nav__content-item">
+          <a class="nav__content-link">Produtos</a>
+        </li>
+        <li class="nav__content-item">
+          <a class="nav__content-link">Recursos</a>
+        </li>
+        <li class="nav__content-item">
+          <a class="nav__content-link">Sobre nós</a>
+        </li>
+      </ul>
+
+      <div class="nav__navigation-container">
+        <button href="" class="btn nav__navigation-login-btn">Entrar</button>
+        <button href="" class="btn nav__navigation-signup-btn">
+          Cadastrar
+        </button>
+      </div>
+
+      <!--- NAV | Mobile ----------------------------------------------------->
+      <div class="nav__navigation-container-mobile">
+        <!-- USER ICON -->
+
+        <button href="" class="btn-mobile nav__navigation-login-btn-mobile">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="ionicon"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"
+            />
+          </svg>
+        </button>
+
+        <!--- HAMBURGUER MENU --->
+        <input
+          type="checkbox"
+          id="hamburguer-menu__options"
+          class="humburguer__check"
+        />
+        <label for="hamburguer-menu__options">
+          <span href="" class="btn-mobile nav__navigation-menu-btn-mobile">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-miterlimit="10"
+                stroke-width="48"
+                d="M88 152h336M88 256h336M88 360h336"
+              />
+            </svg>
+          </span>
+        </label>
+
+        <ul class="nav__content-container">
+          <li class="nav__content-item">
+            <a class="nav__content-link">Home</a>
+          </li>
+          <li class="nav__content-item">
+            <a class="nav__content-link">Produtos</a>
+          </li>
+          <li class="nav__content-item">
+            <a class="nav__content-link">Recursos</a>
+          </li>
+          <li class="nav__content-item">
+            <a class="nav__content-link">Sobre nós</a>
+          </li>
+          <div class="user__container">
+            <li class="nav__content-item">
+              <a class="nav__content-link">Login</a>
+            </li>
+            <li class="nav__content-item">
+              <a class="nav__content-link">Cadastrar</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+    <!--- HEADER ----------------------------------------------------->
+    <header class="header__container">
+      <p class="header__about">Sobre nós</p>
+
+      <h1 class="header__title">Por que somos diferentes?</h1>
+
+      <p class="header__description">
+        Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as
+        empresas de todo o mundo a se concentrarem naquilo que é realmente
+        importante para elas.
+      </p>
+    </header>
+
+    <!--- METRICS ----------------------------------------------------->
+    <section class="metrics__container">
+      <div class="metric__card metric__01">
+        <p class="metric__number">400+</p>
+        <h2 class="metric__title">Projetos concluídos</h2>
+        <p class="metric__description">
+          Nós ajudamos a construir mais de 400 projetos incríveis.
+        </p>
+      </div>
+
+      <div class="metric__card metric__02">
+        <p class="metric__number">100+</p>
+        <h2 class="metric__title">Colaboradores</h2>
+        <p class="metric__description">
+          Temos mais de 100 colaboradores no nosso time que se preocupam com
+          nossos clientes.
+        </p>
+      </div>
+
+      <div class="metric__card metric__03">
+        <p class="metric__number">20k</p>
+        <h2 class="metric__title">Downloads</h2>
+        <p class="metric__description">
+          Nossos projetos que estão disponíveis em lojas já foram baixados mais
+          de 20.000 vezes.
+        </p>
+      </div>
+
+      <div class="metric__card metric__04">
+        <p class="metric__number">500+</p>
+        <h2 class="metric__title">Reviews 5 estrelas</h2>
+        <p class="metric__description">
+          Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em
+          nossos produtos.
+        </p>
+      </div>
+    </section>
+
+    <!--- JOBS ----------------------------------------------------->
+    <section class="jobs__container">
+      <div class="jobs__content-container">
+        <h3 class="jobs__badge">Vagas abertas!</h3>
+        <h2 class="jobs__heading">Estamos procurando por talentos</h2>
+        <p class="jobs__description">
+          Somos uma equipe 100% remota com pessoas do Brasil inteiro.
+        </p>
+      </div>
+
+      <img
+        src="img/PessoasTrabalhando.svg"
+        alt="imagem de um grupo de pessoas em reunião com seus notebooks na mesa"
+        class="jobs_img"
+      />
+
+      <div class="jobs__open">
+        <!-- DESIGN -->
+        <div class="jobs__open-container">
+          <h2 class="jobs__open-container-title">Design</h2>
+
+          <div class="job__card">
+            <h3 class="job__card-title">Product Designer</h3>
+            <div class="job__card-details">
+              <p>Full-time</p>
+              <p>Faixa salarial: R$7.000</p>
+            </div>
+          </div>
+
+          <div class="job__card">
+            <h3 class="job__card-title">UX Designer</h3>
+            <div class="job__card-details">
+              <p>Full-time</p>
+              <p>Faixa salarial: R$6.000</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- DEV -->
+        <div class="jobs__open-container">
+          <h2 class="jobs__open-container-title">
+            Desenvolvimento de Software
+          </h2>
+
+          <div class="job__card">
+            <h3 class="job__card-title">Desenvolvedor(a) iOS</h3>
+            <div class="job__card-details">
+              <p>Full-time</p>
+              <p>Faixa salarial: R$8.000</p>
+            </div>
+          </div>
+
+          <div class="job__card">
+            <h3 class="job__card-title">Desenvolvedor(a) Front-end</h3>
+            <div class="job__card-details">
+              <p>Full-time</p>
+              <p>Faixa salarial: R$7.000</p>
+            </div>
+          </div>
+
+          <div class="job__card">
+            <h3 class="job__card-title">Desenvolvedor(a) Back-end</h3>
+            <div class="job__card-details">
+              <p>Full-time</p>
+              <p>Faixa salarial: R$8.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--- TESTIMONIAL ----------------------------------------------------->
+    <section class="testimonial__container">
+      <p class="testimonial__about">
+        Veja o que nossos colaboradores falam sobre nós
+      </p>
+
+      <h1 class="testimonial__title">
+        OptimusTech se importa com a saúde dos seus colaboradores e sempre
+        procura nos dar todo tipo de auxílio possível.
+      </h1>
+
+      <div class="testimonial__user-container">
+        <img
+          src="img/JuliaCastro.svg"
+          alt="Foto da Julia Castro"
+          class="testimonial__user-photo"
+        />
+        <div class="testimonial__user-info">
+          <p class="testimonial__person-name">Júlia Castro</p>
+          <p class="testimonial__person-job">Desenvolvedora Web</p>
+        </div>
+      </div>
+    </section>
+
+    <!--- FORM ----------------------------------------------------->
+    <section class="form__container">
+      <div class="form__heading-container">
+        <h1 class="form__title">Acompanhe as nossas oportunidades</h1>
+        <p class="form__details">
+          Seja o primeiro a saber quando novas vagas serão abertas!
+        </p>
+      </div>
+
+      <div class="form__input-container">
+        <input
+          type="email"
+          placeholder="Seu e-mail"
+          class="form__input-email"
+        />
+        <button class="btn btn-signup">Cadastrar</button>
+      </div>
+    </section>
+
+    <!--- FORM ----------------------------------------------------->
+    <footer class="footer__container">
+      <p class="footer__details">
+        © 2022 OptimusTech. Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>

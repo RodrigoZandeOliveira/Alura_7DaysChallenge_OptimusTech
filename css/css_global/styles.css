@@ -1,0 +1,11 @@
+/* IMPORT GOOGLE FONT | INTER */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* IMPORT CSS | RESET */
+@import url('reset.css');
+
+/* IMPORT CSS | GLOBAL CONFIGURATION */
+@import url('global_configuration.css');
+
+/* IMPORT CSS | VAR */
+@import url('var.css');

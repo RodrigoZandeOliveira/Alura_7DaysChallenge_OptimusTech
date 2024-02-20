@@ -1,0 +1,15 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--page-background-primary);
+  color: var(--text-color-primary);
+  font-size: var(--text-font-size-regular);
+  font-family: var(--text-font-family-primary);
+  font-weight: var(--text-font-weight-light);
+}
+
+html {
+  font-size: 62.5%;
+}

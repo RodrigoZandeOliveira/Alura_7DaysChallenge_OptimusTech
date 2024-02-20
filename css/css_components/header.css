@@ -1,0 +1,49 @@
+.header__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 9.6rem 0;
+}
+
+.header__about {
+  font-weight: var(--text-font-weight-semibold);
+  color: var(--accent-color-primary);
+}
+
+.header__title {
+  font-size: var(--text-font-size-large);
+  font-weight: var(--text-font-weight-semibold);
+  color: var(--text-color-secondary);
+}
+
+.header__description {
+  font-size: var(--text-font-size-very-big);
+  max-width: 80rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/* MEDIA QUERIES ///////////////////////////////////////////////////////////// */
+
+/*--- MAX-WIDTH: 980PX --------------------------------------------------------*/
+@media screen and (max-width: 980px) {
+  .header__container {
+    padding: 9.6rem 10%;
+  }
+
+  .header__title {
+    text-align: center;
+  }
+}
+
+/*--- MAX-WIDTH: 475PX -------------------------------------------------------*/
+@media screen and (max-width: 475px) {
+  .header__title {
+    font-size: var(--text-font-size-extra-big);
+  }
+}
