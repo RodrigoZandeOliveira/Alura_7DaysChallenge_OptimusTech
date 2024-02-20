@@ -1,4 +1,4 @@
-[**OPTIMUS TECH**]()
+[**OPTIMUS TECH**](https://rodrigozandeoliveira.github.io/Alura_7DaysChallenge_OptimusTech/)
 
 ![Optimus Tech Preview](RodrigoZandeOliveira_Exercise_OptimusTech_Preview.jpg)
 
